@@ -1,0 +1,903 @@
+{
+ "schemaVersion": 1,
+ "meta": {
+  "title": "Morning Market Briefing",
+  "date": "Freitag, 9. Oktober 2026",
+  "dataAsOf": "ca. 11:45 MESZ",
+  "dataAsOfNote": "Asien, Futures, FX, Rohstoffe und Bitcoin = laufende Werte",
+  "lastUsClose": "Donnerstag, 8. Oktober 2026 · 16:00 ET",
+  "briefingDate": "2026-10-09",
+  "lastUsCloseDate": "2026-10-08",
+  "lastSuccessfulUpdate": "2026-10-09T11:46:00+02:00",
+  "sourceThread": "https://www.perplexity.ai/computer/tasks/2130aaa9-e6be-4273-b2f8-6c62d0d5e7f7"
+ },
+ "sources": {
+  "ap_wrap": {
+   "label": "AP · Marktbericht",
+   "title": "Rising oil prices, falling technology stocks and reversing bond yields keep Wall Street unsettled (08.10.)",
+   "url": "https://apnews.com/article/6a096d714c874db13632794a32cebaa6"
+  },
+  "ap_close": {
+   "label": "AP · Indexstände",
+   "title": "How major US stock indexes fared Thursday 10/8/2026",
+   "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-4499d3b2906917ed3d8670095bf1c321"
+  },
+  "reuters_close": {
+   "label": "Reuters · Börsenschluss",
+   "title": "S&P 500, Nasdaq end lower as crude prices jump, chip stocks fall (08.10.)",
+   "url": "https://www.reuters.com/business/wall-st-futures-slide-rising-oil-yields-dampen-mood-2026-10-08/"
+  },
+  "reuters_close_final": {
+   "label": "Reuters · Marktbreite",
+   "title": "S&P 500, Nasdaq end lower as crude prices jump – Reuters-Schlussfassung via Star-Advertiser",
+   "url": "https://www.staradvertiser.com/2026/10/08/breaking-news/sp-500-nasdaq-end-lower-as-crude-prices-jump/"
+  },
+  "reuters_30y": {
+   "label": "Reuters · 30J-Auktion",
+   "title": "US bonds rally after 30-year auction finds solid demand (08.10.)",
+   "url": "https://www.reuters.com/markets/us/us-bonds-fall-lifting-yields-2nd-day-oil-weighs-30-year-auction-looms-2026-10-08/"
+  },
+  "reuters_waller": {
+   "label": "Reuters · Waller",
+   "title": "Fed's Waller: More hikes needed, but there is 'flexibility' about the pace (08.10.)",
+   "url": "https://www.reuters.com/world/feds-waller-more-hikes-needed-there-is-flexibility-about-pace-2026-10-08/"
+  },
+  "reuters_oil_trump": {
+   "label": "Reuters · Öl/Iran",
+   "title": "Oil falls as Trump comments on Iran talks ease supply concerns (09.10.)",
+   "url": "https://www.reuters.com/business/energy/oil-falls-trump-comments-iran-talks-ease-supply-concerns-2026-10-09/"
+  },
+  "reuters_chipotle": {
+   "label": "Reuters · Chipotle",
+   "title": "Starbucks explored Chipotle takeover, FT reports (08.10.)",
+   "url": "https://www.reuters.com/business/starbucks-explored-chipotle-takeover-ft-reports-2026-10-08/"
+  },
+  "reuters_pepsi": {
+   "label": "Reuters · PepsiCo",
+   "title": "PepsiCo cuts annual core profit forecast (08.10.)",
+   "url": "https://www.reuters.com/business/retail-consumer/pepsico-cuts-annual-core-profit-forecast-higher-costs-hurt-margins-2026-10-08/"
+  },
+  "ft_chipotle": {
+   "label": "FT · Chipotle",
+   "title": "Starbucks has explored takeover of Chipotle in restaurant megadeal (08.10.)",
+   "url": "https://www.ft.com/content/79cef26a-e5e9-41d0-9af2-876dc23a9a7d"
+  },
+  "bbg_openai_ft": {
+   "label": "Bloomberg · OpenAI-Umsatz",
+   "title": "OpenAI's Revenue Run Rate Nears $50 Billion, Less Than Reported – FT Says (08.10.)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-08/openai-s-annualized-revenue-nears-50-billion-ft-says"
+  },
+  "bbg_openai_70": {
+   "label": "Bloomberg · OpenAI 70 Mrd.",
+   "title": "OpenAI Expects $70 Billion in Annualized Revenue by End of 2026 (09.10.)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-09/openai-expects-70-billion-in-annualized-revenue-by-end-of-2026"
+  },
+  "bbg_wrap": {
+   "label": "Bloomberg · Markets Wrap",
+   "title": "US Stock Futures Extend Gains, Brent Crude Drops: Markets Wrap (09.10.)",
+   "url": "https://www.swissinfo.ch/eng/us-stock-futures-extend-gains,-brent-crude-drops:-markets-wrap/92189516"
+  },
+  "wsj_broadcom": {
+   "label": "WSJ · Broadcom",
+   "title": "Oracle, Broadcom and SpaceX Seek Blockbuster Debt Deals to Pay for AI Chips (07.10.)",
+   "url": "https://www.wsj.com/tech/oracle-broadcom-and-spacex-seek-blockbuster-debt-deals-to-pay-for-ai-chips-848e8032"
+  },
+  "cnbc_live": {
+   "label": "CNBC · Live-Updates",
+   "title": "Stock market today: Live updates (inkl. After-Hours-Moves, Futures 09.10.)",
+   "url": "https://www.cnbc.com/2026/10/08/stock-market-today-live-updates.html"
+  },
+  "cnbc_ai": {
+   "label": "CNBC · KI-Aktien",
+   "title": "Nvidia, Oracle, other AI stocks sink on OpenAI revenue report (08.10.)",
+   "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
+  },
+  "cnbc_oil": {
+   "label": "CNBC · Öl",
+   "title": "Oil prices jump as Iran steps up tanker attacks, hurricane shuts in Gulf output (08.10.)",
+   "url": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html"
+  },
+  "cnbc_spacex": {
+   "label": "CNBC · SpaceX",
+   "title": "SpaceX spectrum license hammers shares of AT&T, Verizon and T-Mobile (08.10., 16:43 ET)",
+   "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html"
+  },
+  "cnbc_fed_sept": {
+   "label": "CNBC · Fed-Zinsentscheid",
+   "title": "Fed rate decision September 2026: Rates rise to 3.75%–4%",
+   "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+  },
+  "investopedia": {
+   "label": "Investopedia · Live-Ticker 08.10.",
+   "title": "Markets News, Oct. 8, 2026 (Coherent, Lumentum, Samsung)",
+   "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-10082026-12164066"
+  },
+  "cms_stars": {
+   "label": "CMS",
+   "title": "Fact Sheet – 2027 Medicare Advantage/Part D Star Ratings (08.10.)",
+   "url": "https://www.cms.gov/files/document/fact-sheet-2027-ma-part-d-star-ratings-october-8-2026.pdf"
+  },
+  "yahoo_godaddy": {
+   "label": "Yahoo Finance",
+   "title": "GoDaddy shares surge on Gen Digital's reported takeover bid (FT-Bericht, 24.09.)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/godaddy-shares-surge-gen-digitals-160257804.html"
+  },
+  "sec_pepsi": {
+   "label": "PepsiCo / SEC",
+   "title": "PepsiCo Reports Third-Quarter 2026 Results (Exhibit 99.1)",
+   "url": "https://www.sec.gov/Archives/edgar/data/77476/000007747626000050/q320268-kxexhibit991.htm"
+  },
+  "delta_ir": {
+   "label": "Delta IR",
+   "title": "Delta Air Lines 3Q 2026 Earnings Webcast",
+   "url": "https://ir.delta.com/events-and-presentations/events-calendar/event-details/2026/Delta-Air-Lines-3Q-2026-Earnings-Webcast/default.aspx"
+  },
+  "wallst247_delta": {
+   "label": "24/7 Wall St",
+   "title": "Delta Air Lines Earnings: What to Expect Before the Open",
+   "url": "https://247wallst.com/cards/delta-kicks-off-airline-earnings-at-6-30-am-et-with-19-anal-dal-earnings-calendar-01m4fydzv4qqgay4838gy8h9my"
+  },
+  "kcfed": {
+   "label": "Kansas City Fed",
+   "title": "Speeches – Jeffrey Schmid",
+   "url": "https://www.kansascityfed.org/speeches/"
+  },
+  "admiral_michigan": {
+   "label": "Admiral Markets",
+   "title": "Michigan Consumer Sentiment October 2026: Preview (Konsens 47,6, Vorwert 48,1)",
+   "url": "https://admiralmarkets.com/analytics/traders-blog/michigan-consumer-sentiment-october-2026-what-to-expect-on-9-october"
+  },
+  "finanzen_dax": {
+   "label": "finanzen.ch",
+   "title": "Aktien Frankfurt Schluss: Dax unter 25.000 Punkten (08.10.)",
+   "url": "https://www.finanzen.ch/nachrichten/aktien/aktien-frankfurt-schluss-dax-unter-25-000-punkten-oel-und-anleihen-1036609526"
+  },
+  "pplx_fin": {
+   "label": "Perplexity Finance",
+   "title": "Kurs- und Performance-Daten (Tagesschlusskurse, laufende Kurse)",
+   "url": "https://www.perplexity.ai/finance"
+  },
+  "etf_smh": {
+   "label": "SMH · VanEck",
+   "title": "Proxy Halbleiter: VanEck Semiconductor ETF",
+   "url": "https://www.vaneck.com/offshore/en/investments/semiconductor-etf-smh/"
+  },
+  "etf_cibr": {
+   "label": "CIBR · First Trust",
+   "title": "Proxy Cybersecurity: First Trust Nasdaq Cybersecurity ETF",
+   "url": "https://www.firsttrust.ca/Retail/Etf/EtfSummary.aspx?Ticker=CIBR"
+  },
+  "etf_xop": {
+   "label": "XOP · State Street",
+   "title": "Proxy Öl & Gas E&P: SPDR S&P Oil & Gas Exploration & Production ETF",
+   "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-oil-gas-exploration-production-etf-xop"
+  },
+  "etf_kbwb": {
+   "label": "KBWB · Invesco",
+   "title": "Proxy Großbanken: Invesco KBW Bank ETF",
+   "url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-kbw-bank-etf.html"
+  },
+  "etf_xme": {
+   "label": "XME · State Street",
+   "title": "Proxy Metalle & Bergbau: SPDR S&P Metals & Mining ETF",
+   "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-metals-mining-etf-xme"
+  },
+  "etf_rsp": {
+   "label": "RSP · Invesco",
+   "title": "Proxy S&P 500 Equal Weight: Invesco S&P 500 Equal Weight ETF",
+   "url": "https://www.invesco.com/us/en/etf/sp-500-equal-weight-rsp.html"
+  },
+  "etf_uup": {
+   "label": "UUP · Invesco",
+   "title": "Proxy US-Dollar: Invesco DB US Dollar Index Bullish Fund (Factsheet)",
+   "url": "https://www.invesco.com/us-rest/contentdetail?contentId=75b8e01e98630410VgnVCM10000046f1bf0aRCRD"
+  },
+  "etf_sectors": {
+   "label": "Select Sector SPDRs",
+   "title": "Sektor-Proxies (XLE, XLK, XLP, XLU, XLV …)",
+   "url": "https://www.ssga.com/se/en_gb/intermediary/capabilities/equities/sector-investing/select-sector-etfs"
+  },
+  "spy_holdings": {
+   "label": "SPY-Bestände · State Street",
+   "title": "SPDR S&P 500 ETF – tägliche Bestände (XLSX)",
+   "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-spy.xlsx"
+  }
+ },
+ "kurzfazit": [
+  "Die US-Sitzung am Donnerstag war schwächer, als der Index zeigt: Der S&P 500 fiel um −0,47 %, weil Chip- und KI-Werte nach einem FT-Bericht über niedrigere OpenAI-Umsätze stark nachgaben. Die Mehrheit der S&P-500-Aktien stieg aber.",
+  "Über Nacht kam die Erholung: Neue Angaben zu OpenAI und Trumps Aussage, Iran vor den Midterms nicht anzugreifen, schoben die Nasdaq-Futures an und drückten den Ölpreis.",
+  "Das größere Bild bleibt angespannt: Die 10-jährige US-Rendite stieg in einem Monat um +42 bp, und Tech ist der einzige große Gewinner. Small Caps, Banken, Immobilien und Rohstoffwerte liegen deutlich im Minus.",
+  "Heute zählen vor allem Delta (vor US-Börsenstart) und die Michigan-Konsumstimmung um 16:00 MESZ."
+ ],
+ "kurzfazitSrc": [
+  "bbg_openai_ft",
+  "ap_wrap",
+  "cnbc_live",
+  "reuters_oil_trump"
+ ],
+ "kurzfazitKeep": "Die Schwäche ist eng auf KI-Hardware begrenzt, kein breiter Ausverkauf.",
+ "keyFigures": [
+  {
+   "label": "S&P 500",
+   "value": "7.765,36",
+   "change": "−0,47 %",
+   "dir": "down",
+   "ref": "Schluss Do."
+  },
+  {
+   "label": "Nasdaq 100",
+   "value": "Futures-Indikation",
+   "change": "+0,85 %",
+   "dir": "up",
+   "ref": "ca. 11:45 MESZ",
+   "futures": true
+  },
+  {
+   "label": "US 10Y Yield",
+   "value": "5,24 %",
+   "change": "+2 bp",
+   "dir": "up",
+   "ref": "aktuell vs. 5,23 %"
+  },
+  {
+   "label": "Öl Brent",
+   "value": "103,28 $",
+   "change": "−0,96 %",
+   "dir": "down",
+   "ref": "aktuell vs. Schluss"
+  },
+  {
+   "label": "Gold (Future)",
+   "value": "4.208,50",
+   "change": "+1,24 %",
+   "dir": "up",
+   "ref": "aktuell vs. Schluss"
+  }
+ ],
+ "marketsIntro": "Am Donnerstag fielen Nasdaq 100 und Chipwerte deutlich. Der gleichgewichtete S&P 500 (RSP) stieg dagegen um +0,60 %, die Russell 2000 blieb fast unverändert. Das spricht für eine Rotation, nicht für eine Flucht aus Aktien. Die Rendite fiel im Tagesverlauf von etwa 5,35 % auf 5,23 %. Heute Morgen steigen die US-Futures, Hongkong und Europa legen zu, Japan schloss unverändert. Öl gibt einen Teil des Vortagesanstiegs ab. Bisher ist das eine Gegenbewegung zum Vortag, keine neue Trendaussage.",
+ "marketsIntroSrc": [
+  "reuters_close",
+  "reuters_30y",
+  "bbg_wrap"
+ ],
+ "marketsSrc": [
+  "pplx_fin",
+  "ap_close",
+  "finanzen_dax",
+  "cnbc_live"
+ ],
+ "marketsNowLabel": "Danach / aktuell (ca. 11:45 MESZ)",
+ "markets": [
+  {
+   "group": "US-Märkte",
+   "code": "US",
+   "rows": [
+    {
+     "name": "S&P 500",
+     "close": "7.765,36",
+     "closeChg": "−0,47 %",
+     "closeDir": "down",
+     "nowTag": "Futures-Indikation",
+     "now": "",
+     "nowChg": "+0,43 %",
+     "nowDir": "up",
+     "note": "Tech zieht, Breite positiv"
+    },
+    {
+     "name": "Nasdaq 100",
+     "close": "30.725,81",
+     "closeChg": "−1,39 %",
+     "closeDir": "down",
+     "nowTag": "Futures-Indikation",
+     "now": "",
+     "nowChg": "+0,85 %",
+     "nowDir": "up",
+     "note": "Größter Rückgang, stärkste Erholung"
+    },
+    {
+     "name": "Russell 2000",
+     "close": "2.794,13",
+     "closeChg": "+0,03 %",
+     "closeDir": "flat",
+     "nowTag": "Micro-Futures",
+     "now": "",
+     "nowChg": "+0,40 %",
+     "nowDir": "up",
+     "note": "Stabil"
+    },
+    {
+     "name": "VIX",
+     "close": "15,41",
+     "closeChg": "+2,2 %",
+     "closeDir": "up",
+     "nowTag": null,
+     "now": "—",
+     "nowChg": "",
+     "nowDir": null,
+     "note": "Weiter niedriges Stressniveau"
+    }
+   ]
+  },
+  {
+   "group": "Europa",
+   "code": "EU",
+   "rows": [
+    {
+     "name": "STOXX Europe 600",
+     "close": "625,51",
+     "closeChg": "−0,75 %",
+     "closeDir": "down",
+     "nowTag": null,
+     "now": "631,84",
+     "nowChg": "+1,01 %",
+     "nowDir": "up",
+     "note": "Erholung"
+    },
+    {
+     "name": "DAX",
+     "close": "24.807",
+     "closeChg": "−1,2 %",
+     "closeDir": "down",
+     "closeSrc": "Xetra, finanzen.ch",
+     "nowTag": null,
+     "now": "25.101,90",
+     "nowChg": "ca. +1,2 %",
+     "nowDir": "up",
+     "nowSrc": "gg. Xetra-Schluss (eigene Rechnung)",
+     "note": "Wieder über 25.000"
+    }
+   ]
+  },
+  {
+   "group": "Asien",
+   "code": "AS",
+   "rows": [
+    {
+     "name": "Nikkei 225",
+     "close": "69.042,11",
+     "closeChg": "",
+     "closeDir": null,
+     "closeSrc": "Do.",
+     "nowTag": "Fr.-Schluss",
+     "now": "69.030,92",
+     "nowChg": "−0,02 %",
+     "nowDir": "flat",
+     "note": "Früher Rückgang über 1 % aufgeholt"
+    },
+    {
+     "name": "Hang Seng",
+     "close": "23.785,80",
+     "closeChg": "",
+     "closeDir": null,
+     "closeSrc": "Do.",
+     "nowTag": "Fr.-Schluss",
+     "now": "24.211,35",
+     "nowChg": "+1,79 %",
+     "nowDir": "up",
+     "note": "Stark"
+    }
+   ]
+  },
+  {
+   "group": "Cross-Asset",
+   "code": "XA",
+   "rows": [
+    {
+     "name": "US 10Y Yield",
+     "close": "5,23 %",
+     "closeChg": "−5 bp",
+     "closeDir": "down",
+     "nowTag": null,
+     "now": "5,24 %",
+     "nowChg": "+2 bp",
+     "nowDir": "up",
+     "note": "Knapp unter dem 24-Jahres-Hoch"
+    },
+    {
+     "name": "EUR/USD",
+     "close": "1,1215",
+     "closeChg": "",
+     "closeDir": null,
+     "closeSrc": "16 Uhr New York",
+     "nowTag": null,
+     "now": "1,1232",
+     "nowChg": "+0,2 %",
+     "nowDir": "up",
+     "note": "Dollar ruhig"
+    },
+    {
+     "name": "Gold (Future)",
+     "close": "4.157",
+     "closeChg": "+0,39 %",
+     "closeDir": "up",
+     "nowTag": null,
+     "now": "4.208,50",
+     "nowChg": "+1,24 %",
+     "nowDir": "up",
+     "note": "Fester"
+    },
+    {
+     "name": "Öl Brent",
+     "close": "104,28 $",
+     "closeChg": "+4,07 %",
+     "closeDir": "up",
+     "nowTag": null,
+     "now": "103,28 $",
+     "nowChg": "−0,96 %",
+     "nowDir": "down",
+     "note": "Gibt nach"
+    },
+    {
+     "name": "Öl WTI",
+     "close": "91,49 $",
+     "closeChg": "+3,64 %",
+     "closeDir": "up",
+     "nowTag": null,
+     "now": "90,89 $",
+     "nowChg": "−0,66 %",
+     "nowDir": "down",
+     "note": "Gibt nach"
+    },
+    {
+     "name": "Bitcoin",
+     "close": "81.692,79 $",
+     "closeChg": "−1,90 %",
+     "closeDir": "down",
+     "closeSrc": "Tagesschluss UTC",
+     "nowTag": null,
+     "now": "82.560 $",
+     "nowChg": "+1,06 %",
+     "nowDir": "up",
+     "nowSrc": "seit 00:00 UTC",
+     "note": "Erholt"
+    }
+   ]
+  }
+ ],
+ "contextSource": "1M (Schluss 08.09. bis 08.10.) und 5D (Schluss 01.10. bis 08.10.) aus Tagesschlusskursen der Perplexity-Finanzdaten. Sektoren und Branchen über ETF-Proxies.",
+ "contextSrc": [
+  "pplx_fin",
+  "etf_rsp",
+  "etf_uup",
+  "etf_sectors",
+  "etf_smh",
+  "cnbc_fed_sept"
+ ],
+ "context1M": {
+  "range": "08.09.–08.10.",
+  "verdict": "Angespannt und eng getragen",
+  "bars": [
+   {
+    "label": "Nasdaq 100",
+    "v": 4.13
+   },
+   {
+    "label": "S&P 500",
+    "v": 1.2
+   },
+   {
+    "label": "S&P 500 Equal Weight",
+    "v": -2.24
+   },
+   {
+    "label": "Russell 2000",
+    "v": -5.61
+   }
+  ],
+  "points": [
+   {
+    "head": "Tech führt, der Rest ist schwach",
+    "text": "S&P 500 +1,20 %, Nasdaq 100 +4,13 %. Der gleichgewichtete S&P lag bei −2,24 %, die Russell 2000 bei −5,61 %."
+   },
+   {
+    "head": "Zinsen als Gegenwind",
+    "text": "Die 10-jährige Rendite stieg um +42 bp, der Dollar-ETF UUP um +3,54 % und EUR/USD fiel um −3,54 %. Die Fed hat im September erstmals seit 2023 die Zinsen erhöht."
+   },
+   {
+    "head": "Rohstoffe",
+    "text": "Brent +6,50 %, Gold dagegen −6,35 %. Höhere Renditen belasten Gold mehr, als die geopolitische Lage es stützt."
+   }
+  ]
+ },
+ "context5D": {
+  "range": "01.10.–08.10.",
+  "verdict": "Erste Gegenbewegung, noch keine Trendwende",
+  "bars": [
+   {
+    "label": "Energie",
+    "v": 4.05
+   },
+   {
+    "label": "Basiskonsum",
+    "v": 3.85
+   },
+   {
+    "label": "Versorger",
+    "v": 3.5
+   },
+   {
+    "label": "S&P 500 Equal Weight",
+    "v": 1.37
+   },
+   {
+    "label": "S&P 500",
+    "v": 1.29
+   },
+   {
+    "label": "Tech",
+    "v": -0.02
+   },
+   {
+    "label": "Halbleiter",
+    "v": -1.71
+   }
+  ],
+  "points": [
+   {
+    "head": "Rotation in defensive Werte und Energie",
+    "text": "Energie +4,05 %, Basiskonsum +3,85 %, Versorger +3,50 %. Tech lag bei −0,02 %, Halbleiter bei −1,71 %."
+   },
+   {
+    "head": "Breite erholt sich",
+    "text": "Der gleichgewichtete S&P (+1,37 %) schlug den S&P 500 (+1,29 %) knapp. Das ist eine erste Gegenbewegung zum Monatsbild, aber noch keine Trendwende."
+   }
+  ]
+ },
+ "contextSinceYesterday": {
+  "status": "leicht verändert",
+  "text": "Das Grundbild hat sich leicht verändert: Die KI-Führung zeigt erstmals deutliche Risse, während die Breite gleichzeitig zunimmt."
+ },
+ "afterHours": [
+  {
+   "company": "AT&T, Verizon, T-Mobile",
+   "event": "SpaceX kauft landesweit 800-MHz-Spektrum von Grain Management für Starlink Mobile",
+   "move": "je ca. −6,6 %",
+   "dir": "down",
+   "src": [
+    "cnbc_spacex",
+    "cnbc_live"
+   ],
+   "relevance": "Neue Konkurrenz für etablierte Mobilfunkanbieter, belastet die Telekom-Branche"
+  },
+  {
+   "company": "SpaceX (SPCX)",
+   "event": "Spektrumkauf, s. o.",
+   "move": "+2,8 %",
+   "dir": "up",
+   "src": [
+    "cnbc_spacex"
+   ],
+   "relevance": "Starlink wird zum Mobilfunkanbieter"
+  },
+  {
+   "company": "Humana",
+   "event": "2027 Medicare-Advantage-Star-Ratings: großer Vertrag H5216 von 3,5 auf 4 Sterne angehoben, damit wieder bonusberechtigt",
+   "move": "ca. +12–13 %",
+   "dir": "up",
+   "src": [
+    "cms_stars",
+    "cnbc_live"
+   ],
+   "relevance": "Wichtig für Managed Care"
+  },
+  {
+   "company": "Alignment Healthcare",
+   "event": "Ebenfalls Star-Ratings",
+   "move": "ca. −23 %",
+   "dir": "down",
+   "src": [
+    "cms_stars",
+    "cnbc_live"
+   ],
+   "relevance": "Die Ratings verteilen die Bonuszahlungen unter den Versicherern neu"
+  }
+ ],
+ "afterHoursNote": "Nicht börsennotiert, aber marktrelevant: Laut Bloomberg erwartet OpenAI bis Jahresende mindestens 70 Mrd. $ annualisierten Umsatz.",
+ "afterHoursNoteSrc": [
+  "bbg_openai_70"
+ ],
+ "changes": [
+  {
+   "head": "Index und Breite laufen auseinander",
+   "text": "Der S&P 500 fiel, der gleichgewichtete S&P stieg um +0,60 %. An der NYSE gab es 1,28-mal so viele steigende wie fallende Aktien.",
+   "src": [
+    "reuters_close_final",
+    "etf_rsp"
+   ]
+  },
+  {
+   "head": "Renditen drehten im Tagesverlauf",
+   "text": "Nach etwa 5,35 % am Morgen schloss die 10-jährige Rendite bei 5,23 %. Gründe waren eine solide 30-jährige Auktion und Trumps Iran-Aussage.",
+   "src": [
+    "reuters_30y",
+    "ap_wrap"
+   ]
+  },
+  {
+   "head": "Über Nacht kippte die Stimmung",
+   "text": "Neue OpenAI-Angaben und ein niedrigerer Ölpreis brachten die Nasdaq-Futures auf +0,85 %.",
+   "src": [
+    "bbg_openai_70",
+    "cnbc_live"
+   ]
+  }
+ ],
+ "moversSession": "S&P 500 · Sitzung 08.10.",
+ "gainers": [
+  {
+   "ticker": "CSGP",
+   "name": "CoStar",
+   "move": 8.01,
+   "reason": "Kein eindeutig belegter Auslöser",
+   "unconfirmed": true
+  },
+  {
+   "ticker": "CMG",
+   "name": "Chipotle",
+   "move": 6.21,
+   "reason": "FT-Bericht: Starbucks prüft eine Übernahme",
+   "src": [
+    "ft_chipotle",
+    "reuters_chipotle"
+   ]
+  },
+  {
+   "ticker": "GDDY",
+   "name": "GoDaddy",
+   "move": 6.15,
+   "reason": "Kein eindeutig belegter Auslöser; die FT berichtete schon am 24.09. über einen Übernahmeansatz von Gen Digital",
+   "unconfirmed": true,
+   "src": [
+    "yahoo_godaddy"
+   ]
+  },
+  {
+   "ticker": "ACN",
+   "name": "Accenture",
+   "move": 5.96,
+   "reason": "Kein eindeutig belegter Auslöser; IT-Dienstleister waren stark, während KI-Hardware fiel",
+   "unconfirmed": true
+  },
+  {
+   "ticker": "IT",
+   "name": "Gartner",
+   "move": 5.19,
+   "reason": "Kein eindeutig belegter Auslöser",
+   "unconfirmed": true
+  }
+ ],
+ "losers": [
+  {
+   "ticker": "COHR",
+   "name": "Coherent",
+   "move": -9.63,
+   "reason": "Optikwerte nach dem OpenAI-Bericht verkauft",
+   "src": [
+    "investopedia"
+   ]
+  },
+  {
+   "ticker": "GLW",
+   "name": "Corning",
+   "move": -6.38,
+   "reason": "Kein eindeutig belegter Auslöser, im Umfeld des Optik-Abverkaufs",
+   "unconfirmed": true
+  },
+  {
+   "ticker": "VST",
+   "name": "Vistra",
+   "move": -6.35,
+   "reason": "Kein eindeutig belegter Auslöser; KI-Strom-Werte schwach",
+   "unconfirmed": true
+  },
+  {
+   "ticker": "BE",
+   "name": "Bloom Energy",
+   "move": -6.34,
+   "reason": "Kein eindeutig belegter Auslöser",
+   "unconfirmed": true
+  },
+  {
+   "ticker": "LITE",
+   "name": "Lumentum",
+   "move": -5.62,
+   "reason": "Optikwerte nach dem OpenAI-Bericht verkauft",
+   "src": [
+    "investopedia"
+   ]
+  }
+ ],
+ "moversSrc": [
+  "pplx_fin"
+ ],
+ "moversSrcNote": "Rangfolge und Tagesmoves: S&P 500, Sitzung 08.10.",
+ "moversNote": "Unter den Verlierern finden sich fast nur KI-Lieferkette (Optik, Strom, Hardware), unter den Gewinnern Dienstleister und Übernahmeziele. Das ist ein Muster, keine Einzelgeschichten. PepsiCo stieg nach den Zahlen um 3,7 %, obwohl der Konzern die Gewinnprognose senkte.",
+ "moversNoteSrc": [
+  "sec_pepsi",
+  "reuters_pepsi"
+ ],
+ "drivers": [
+  {
+   "title": "OpenAI-Umsatz und KI-Hardware",
+   "fact": "Laut FT liegt der annualisierte Umsatz von OpenAI etwa 20 Mrd. $ unter dem zuvor signalisierten Wert. CNBC bestätigte rund 50 Mrd. $ Ende September. Dazu verfehlten Samsungs vorläufige Q3-Zahlen die Erwartungen.",
+   "interpretation": "Der Bericht hat Zweifel geweckt, ob sich der KI-Ausgabenboom noch rechtfertigen lässt. Hinzu kommt die Sorge über die Finanzierung, etwa die 50 Mrd. $, die Broadcom laut WSJ für OpenAI organisiert.",
+   "reaction": "Der Chipindex fiel um 3,4 %, Micron um 4,8 %, Oracle um 5,5 %. Über Nacht folgte die Erholung auf die Meldung über das 70-Mrd.-$-Ziel.",
+   "mechanism": "Der Umsatz des Endkunden rechtfertigt die Investitionen der Zulieferer. Wackelt diese Kette, trifft es zuerst die Werte mit dem höchsten Momentum.",
+   "src": [
+    "bbg_openai_ft",
+    "cnbc_ai",
+    "investopedia",
+    "wsj_broadcom",
+    "bbg_wrap",
+    "bbg_openai_70"
+   ]
+  },
+  {
+   "title": "Öl, Inflation und Fed",
+   "fact": "Brent stieg um 4,1 %, weil Tanker in der Straße von Hormus angegriffen wurden und Hurrikan Isaias die US-Förderung drosselte. Fed-Gouverneur Waller hält weitere Zinserhöhungen für wahrscheinlich nötig.",
+   "interpretation": "Der Ölanstieg schürte Inflations- und Zinserhöhungssorgen. Der Markt sah eine Wahrscheinlichkeit von 69,2 % für eine Zinserhöhung im Dezember.",
+   "reaction": "Energie war der stärkste Sektor (XLE +2,97 %). Die Renditen fielen nach der Auktion und Trumps Iran-Aussage zurück.",
+   "mechanism": "Die Kette lautet Öl → Inflationserwartungen → Fed → Renditen. Gerade wirkt der Ölpreis direkt auf die Bewertung von Wachstumsaktien.",
+   "src": [
+    "cnbc_oil",
+    "reuters_waller",
+    "reuters_close",
+    "reuters_30y",
+    "reuters_oil_trump"
+   ]
+  }
+ ],
+ "sectorsText": "Am Donnerstag führten Energie und Basiskonsum, Schlusslicht war Tech. Nur Tech, Gesundheit und Versorger schlossen im Minus. Die Bewegung war also breit, der Indexverlust kam fast nur aus Tech.",
+ "sectorsNote": "Im Briefing genannte Sektoren, 1D (Sitzung 08.10., ETF-Proxies)",
+ "sectorsSrc": [
+  "pplx_fin",
+  "etf_sectors"
+ ],
+ "sectors": [
+  {
+   "label": "Energie",
+   "v": 2.97
+  },
+  {
+   "label": "Basiskonsum",
+   "v": 2.11
+  },
+  {
+   "label": "Versorger",
+   "v": -0.19
+  },
+  {
+   "label": "Gesundheit",
+   "v": -0.39
+  },
+  {
+   "label": "Tech",
+   "v": -1.79
+  }
+ ],
+ "industriesProxies": "Proxies: SMH, CIBR, XOP, KBWB, XME · Quelle: Perplexity-Finanzdaten (Tagesschlusskurse)",
+ "industriesSrc": [
+  "pplx_fin",
+  "etf_smh",
+  "etf_cibr",
+  "etf_xop",
+  "etf_kbwb",
+  "etf_xme"
+ ],
+ "industries": [
+  {
+   "name": "Halbleiter",
+   "d1": -2.84,
+   "d5": -1.71,
+   "m1": 5.85,
+   "note": "Richtungswechsel: 1M stark, 5D kippt; schwächer als Tech"
+  },
+  {
+   "name": "Cybersecurity",
+   "d1": -0.35,
+   "d5": 2.33,
+   "m1": 12.97,
+   "note": "Anhaltend stark innerhalb von Tech"
+  },
+  {
+   "name": "Öl & Gas E&P",
+   "d1": 2.79,
+   "d5": 4.99,
+   "m1": -0.22,
+   "note": "Kurzfristige Beschleunigung mit dem Ölpreis"
+  },
+  {
+   "name": "Großbanken",
+   "d1": 0.75,
+   "d5": 0.22,
+   "m1": -9.71,
+   "note": "Klar schwächer als S&P und Finanzsektor"
+  },
+  {
+   "name": "Metalle & Bergbau",
+   "d1": -0.22,
+   "d5": 0.31,
+   "m1": -12.79,
+   "note": "Schwächste Branche im Monat"
+  }
+ ],
+ "industriesSummary": "Halbleiter sind eine Tagesbewegung in einem bisher starken Trend. Bei Banken und Metallen setzt sich ein größerer Abwärtstrend fort.",
+ "breadth": [
+  "Der S&P 500 fiel um −0,47 %, der gleichgewichtete S&P stieg um +0,60 %. Das ist ein klares Zeichen für eine enge Belastung durch wenige große Titel.",
+  "An der NYSE gab es 1,28-mal so viele steigende wie fallende Aktien, im S&P 500 4 neue Hochs und 12 neue Tiefs.",
+  "Über einen Monat bleibt die Breite schwach: Gleichgewichteter S&P −2,24 % gegenüber S&P 500 +1,20 %."
+ ],
+ "breadthSrc": [
+  "reuters_close_final",
+  "pplx_fin",
+  "etf_rsp"
+ ],
+ "breadthCompare": [
+  {
+   "period": "1D",
+   "spx": -0.47,
+   "rsp": 0.6
+  },
+  {
+   "period": "5D",
+   "spx": 1.29,
+   "rsp": 1.37
+  },
+  {
+   "period": "1M",
+   "spx": 1.2,
+   "rsp": -2.24
+  }
+ ],
+ "todayLabel": "Fr., 9. Oktober · Zeiten in MESZ",
+ "today": [
+  {
+   "time": "vor US-Start",
+   "event": "Delta Air Lines Q3",
+   "tag": "BMO",
+   "why": "Erste große Airline-Zahlen bei Öl über 100 $; Konsens-EPS laut 24/7 Wall St 1,88 $",
+   "src": [
+    "delta_ir",
+    "wallst247_delta"
+   ]
+  },
+  {
+   "time": "15:30",
+   "event": "Rede von Jeffrey Schmid, Fed Kansas City",
+   "tag": null,
+   "why": "Neue Hinweise auf weitere Zinserhöhungen",
+   "src": [
+    "kcfed"
+   ]
+  },
+  {
+   "time": "15:30",
+   "event": "US-Börsenstart: erster regulärer Handel für Telekom- und Managed-Care-Werte nach den News",
+   "tag": null,
+   "why": "Zeigt, ob sich die nachbörslichen Moves halten"
+  },
+  {
+   "time": "16:00",
+   "event": "Uni Michigan Konsumstimmung Oktober, vorläufig",
+   "tag": null,
+   "why": "Konsens 47,6, Vorwert 48,1; Inflationserwartungen im Fokus",
+   "src": [
+    "admiral_michigan"
+   ]
+  }
+ ],
+ "lesson": {
+  "title": "Kapitalgewichtung gegenüber Marktbreite",
+  "text": "Der S&P 500 gewichtet nach Börsenwert. Nvidia allein macht über 8 % aus, das zeigen die SPY-Bestände. Fallen einige Riesen um 3–5 %, sinkt der Index, auch wenn die meisten Aktien steigen. Genau das ist gestern passiert. Der gleichgewichtete S&P misst den „durchschnittlichen“ Wert. Einen roten Index mit grüner Breite liest man deshalb als Rotation unter der Oberfläche. Ein echter Risk-off-Tag sieht anders aus: Dann fallen beide.",
+  "src": [
+   "spy_holdings",
+   "etf_rsp"
+  ]
+ },
+ "watch": [
+  "Halten die Halbleiter im Kassahandel die Erholung aus den Futures, oder bleibt der Rückgang?",
+  "Steigen die Inflationserwartungen in der Michigan-Umfrage weiter, und reagiert die 10-jährige Rendite in Richtung 5,3 %?",
+  "Wie stark preist Delta den Ölpreis in der Prognose ein, und folgen Airlines und Transportwerte?"
+ ],
+ "takeaway": "Gestern ist nicht der Gesamtmarkt gefallen, sondern die KI-Hardware. Der Rest des Marktes stieg."
+}
